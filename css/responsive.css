@@ -1,0 +1,51 @@
+/* Smart Phones And Tablets */
+@media (max-width: 767px)
+{
+    
+  	.header.shrink .navbar-nav li.active a:after{width: 100%;}
+    
+    .header .navbar-nav { float: none; background-color: #fff; }
+    
+	.header.shrink .navbar-nav li a,
+	.header .navbar-nav li a { padding: 10px 10px; color: #222; }	
+	
+	.home .overlay .title span{font-size: 35px;}
+
+	.home .overlay .title p{font-size: 15px;}
+	
+	.features-style-2 img{margin-top: 0;}
+	
+	.why .back,
+	.why .back-two{position: relative; height: 400px; width: 100%}
+	
+	.clients .item p{margin: 10px 12% 20px 12%;}
+}
+
+/* Small Screen */
+@media (min-width: 768px) and (max-width: 991px)
+{
+ 
+	.header .navbar-nav li a{ padding: 33px 12px;}
+	
+	.features-style-2 img{margin-top: 0;}
+}
+
+/* Medium Screen */
+@media (min-width:992px) and (max-width: 1199px)
+{ 
+    
+  
+    
+    .help .box .item{min-height: 324px; padding: 30px}
+}
+
+/* Large Screen */
+@media (min-width:1200px)
+{
+    
+}
+
+
+
+/* <span>We Are Retal</span>
+                <h1>Welcome To <span>Retal</span></h1>*/
