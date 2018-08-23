@@ -262,7 +262,9 @@
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
 						<div class="contact-form">
-							<form class="form" id="contact-form" method="post" action="contact.php">
+							<form action="https://formspree.io/dev.paulocesar@gmail.com" method="POST">
+								<input type="hidden" name="_subject" value="New form submit on website Need-app!" />
+								<input type="hidden" name="_next" value="https://need-app.com" />
 								<div class="messages"></div>
 								<div class="controls">
 									<div class="col-sm-12">
@@ -273,7 +275,7 @@
 									</div>
 									<div class="col-sm-6">
 										<div class="form-group">
-											<input id="form_email" class="form-control" type="email" name="email" placeholder="Email" required="required" data-error="Valid email is required.">
+											<input id="form_email" class="form-control" type="email" name="_replyto" placeholder="Email" required="required" data-error="Valid email is required.">
 										<div class="help-block with-errors"></div>
 										</div>
 									</div>
